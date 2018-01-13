@@ -27,7 +27,7 @@ def gameLoop(surface):
                 drawRectangle(surface, isBlue)
 
         pygame.display.update()
-
+        pygame.time.Clock().tick(10)
 def main():
     initializePyGame()
     screenRatio = setScreenRatio()
